@@ -66,6 +66,6 @@ Connect from the host:
 - NimBLE callbacks run on the BLE task; shared state is `volatile`, so poll from `loop()` rather than doing work in callbacks.
 - Pairing security is "bonding, no MITM, secure connections" (`setSecurityAuth(true,false,true)`).
 
-## Origin
+## License
 
-Extracted from [catbeatsofficial/core2catbeats](https://github.com/catbeatsofficial/core2catbeats). MIT licensed.
+MIT.
