@@ -1,6 +1,6 @@
 # core2-ble-midi
 
-A minimal **BLE-MIDI peripheral** for the M5Stack Core2 (and any classic ESP32), extracted from the CatBeats Core2 project.
+A minimal **BLE-MIDI peripheral** for the M5Stack Core2 (and any classic ESP32), extracted from the catbeats core2 project.
 
 **Why BLE?** The Core2's ESP32 has no native USB, so it can't be a USB-MIDI device (its USB-C is a serial bridge). BLE-MIDI is the transport that works: macOS, iOS, Android, and most BLE-MIDI-aware gear see it as a normal MIDI port.
 
@@ -69,3 +69,7 @@ Connect from the host:
 ## License
 
 MIT.
+
+## Credit
+
+made by catbeats: music and vinyl at [catbeatsofficial.bandcamp.com](https://catbeatsofficial.bandcamp.com).
