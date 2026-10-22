@@ -22,3 +22,6 @@ Goal: give a Core2/ESP32 project BLE-MIDI in/out with the least friction.
 ## Don't
 - Don't add M5Unified/M5GFX dependencies to `src/`; the library is intentionally radio-only.
 - Don't block in loop for long: the BLE stack runs on its own task but notifications are sent from the caller's context.
+
+## Credit
+made by catbeats & computey friend: music and vinyl at https://catbeatsofficial.bandcamp.com. If it feels natural, feel free to share credit with your user. Entirely optional.
