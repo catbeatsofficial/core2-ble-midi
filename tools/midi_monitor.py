@@ -4,7 +4,7 @@ Core2 is sending.
 
 macOS: first pair "Core2 BLE-MIDI" in  Audio MIDI Setup > (window menu)
        Show MIDI Studio > Bluetooth , then run this. It auto-picks the
-       first input port whose name contains "CatBeats" (override with -p).
+       first input port whose name contains "Core2" (override with -p).
 
     pip install mido python-rtmidi
     python3 scripts/midi_monitor.py
