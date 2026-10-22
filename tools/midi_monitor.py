@@ -2,14 +2,14 @@
 """Print incoming MIDI, grouped by channel - a quick way to verify the
 Core2 is sending.
 
-macOS: first pair "Core2 BLE-MIDI" in  Audio MIDI Setup > (window menu)
+macOS: first pair "Core2MIDI" in  Audio MIDI Setup > (window menu)
        Show MIDI Studio > Bluetooth , then run this. It auto-picks the
-       first input port whose name contains "Core2" (override with -p).
+       first input port whose name contains "core2" (override with -p).
 
     pip install mido python-rtmidi
-    python3 scripts/midi_monitor.py
-    python3 scripts/midi_monitor.py -p "Core2 BLE-MIDI Bluetooth"
-    python3 scripts/midi_monitor.py -l          # just list ports
+    python3 tools/midi_monitor.py
+    python3 tools/midi_monitor.py -p "Core2MIDI Bluetooth"
+    python3 tools/midi_monitor.py -l          # just list ports
 """
 import argparse
 import collections
